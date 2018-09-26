@@ -1,0 +1,10 @@
+body{
+    background-color: lightgrey;
+}
+#tableStorm{
+    background-color: white;
+    width: 400px;
+    border: 1px;
+    border-style: solid;
+    text-align: left;
+}
