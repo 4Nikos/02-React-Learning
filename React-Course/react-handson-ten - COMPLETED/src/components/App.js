@@ -24,7 +24,6 @@ function mapDispatchToProps(dispatch) {
     onDecrement: () => dispatch(decrement()),
     onSetNewValue:(number) => dispatch(setNewValue(number)),
     onSet: () => dispatch(set()),
-    // onSet: (number) => dispatch(onSetNumber(number))
   };
 }
 function mapStateToProps(state) {

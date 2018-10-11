@@ -23,7 +23,7 @@ function counterReducer(state = initialState, action) {
         ...state,
         count: parseInt(state.numberInputed),
         clicks: state.count = 0,
-        numberInputed: null
+        // numberInputed: Null
       }
       case 'NEWVALUE':
       return {
