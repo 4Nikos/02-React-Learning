@@ -8,7 +8,8 @@ class App extends React.Component {
     return (
       <div>
         <h3>Counter</h3>
-        <Counter clicks={this.props.clicks} 
+        <Counter 
+        clicks={this.props.clicks} 
         count={this.props.count} 
         onIncrement={this.props.onIncrement} 
         onDecrement={this.props.onDecrement} 
