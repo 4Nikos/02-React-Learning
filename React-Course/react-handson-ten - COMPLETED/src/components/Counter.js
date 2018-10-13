@@ -12,8 +12,11 @@ const Counter = ({ count, clicks, onDecrement, onIncrement, onSet, numberInputed
         <label>Times the increment/decrement buttons have been clicked: </label>
         <span>{clicks}</span>
         <br />
-        <input type="number" onChange={event => onSetNewValue(event.target.value)} 
-        value={numberInputed} />
+        <input
+          type="number"
+          onChange={event => onSetNewValue(event.target.value)}
+          value={numberInputed}
+        />
         <button onClick={onSet}>Change Counter value</button>
       </div>
     </div>

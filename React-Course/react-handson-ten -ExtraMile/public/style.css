@@ -1,0 +1,39 @@
+body {
+    background-color: lightgrey;
+    text-align: center
+}
+h3{
+    font-family: 'Special Elite', cursive;
+}
+.counter {
+    background-color: black;
+    color: wheat;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+.clicks{
+    background-color: blue;
+    color: wheat;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+.counterFunctions{
+background-color: black;
+color: white
+}
+.clickFunctions{
+background-color: blue;
+color:white
+}
+.clickTitle{
+    color: blue
+}
+.counterTitle{
+    color: rgb(27, 27, 27)
+}
